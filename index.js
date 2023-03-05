@@ -303,7 +303,7 @@ client.connect(err => {
     // SINGLE-MENU PAGE -: GET SINGLE MENU ITEM
     app.get('/singleMenu/:id', (req, res) => {
         const id = req.params.id 
-        allMenuCollections.find({ _id: ObjectId(id) })
+        allMenuCollections.find({ _id: id })
             .toArray((err, documents) => {
                 res.send(documents[0])
             })
