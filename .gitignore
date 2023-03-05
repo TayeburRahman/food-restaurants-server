@@ -2,3 +2,7 @@
 # bingo-restaurant-fbde0-firebase-adminsdk-4mdz3-168b8ca06b.json
 node_modules
 package-lock.json
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
